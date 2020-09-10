@@ -4,14 +4,14 @@
 
 > p가 소수이고, a가 정수일 때 a<sup>p</sup> 와 a는 서로 합동이다.
 
-C mod p = (A + B)  mod p 일 경우 C mod p = ( A mod p + B mod p) mod p 가 성립한다.
+C mod p = (A + B)  mod p 일 경우 C mod p = (A mod p + B mod p) mod p 가 성립한다.
 
-A = Q<sub>1</sub> * m + A<sub>1</sub> 이라 하면 A<sub>1</sub> = A mod p 이다.
+A = Q<sub>1</sub> * p + A<sub>1</sub> 이라 하면 A<sub>1</sub> = A mod p 이다.
 
-B = Q<sub>2</sub> * m + B<sub>1</sub> 이라 하면 B<sub>1</sub> = B mod p 이다.
+B = Q<sub>2</sub> * p + B<sub>1</sub> 이라 하면 B<sub>1</sub> = B mod p 이다.
 
-A + B = (Q<sub>1</sub> + Q<sub>2</sub>) * m + A<sub>1</sub> + B<sub>1</sub> 이다. 여기에 mod m을 하게 된다면
+A + B = (Q<sub>1</sub> + Q<sub>2</sub>) * p + A<sub>1</sub> + B<sub>1</sub> 이다. 여기에 mod p을 하게 된다면
 
-(A + B) mod m = (A<sub>1</sub> + B<sub>1</sub>) mod m이 된다. (Q<sub>1</sub> + Q<sub>2</sub>)는 m으로 나눌 경우 나머지가 0이므로 사라진다.)
+(A + B) mod p = (A<sub>1</sub> + B<sub>1</sub>) mod p이 된다. (Q<sub>1</sub> + Q<sub>2</sub>)는 p으로 나눌 경우 나머지가 0이므로 사라진다.)
 
-따라서 (A + B) mod m = (A mod m + B mod m) mod m 이 성립하게 된다.
+따라서 (A + B) mod p = (A mod p + B mod p) mod p 이 성립하게 된다.
