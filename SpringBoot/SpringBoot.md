@@ -96,3 +96,21 @@ artifactId : spring-boot-starter-actuator 를 사용하여 의존성을 추가�
 localhost:8088/actuator 로 브라우저에서 사용할 수 있다.
 
 yml 파일에 management: endpoints: web: exposure: include: "*" 를 사용하여 더 많은 정보를 확인할 수 있다.
+
+
+
+spring-security
+
+groupId : org.springframeword.boot
+
+artifactId : spring-boot-starter-security 를 사용하여 의존성을 추가해주어 사용한다.
+
+이후 실행하면 log에 password가 자동으로 생성된다.
+
+인증을 하기 위해서는 postman에 Authorization에서 Basic Auth에 id는 user, password는 log에서 가져와 인증을 할 수 있다.
+
+인증 id와 password를 지정해주기 위해서는 yml파일에 spring: security: user: name: (username) password: (password)를 사용하여 지정해줄 수 있다.
+
+-> id와 password를 바꿔주려면 서버를 계속 재기동해야한다(좋은 방법이 아님)
+
+따라서 WebSecurityConfigurerAdapter를 extends하는 클래스를 만들어 AuthenticationManagerBuilder에 id, password, role 을 지정해주어 사용한다.
