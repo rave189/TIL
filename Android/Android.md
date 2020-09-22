@@ -26,3 +26,21 @@ fragment.setArguments(bundle) 로 fragment에 전달하는 방식이다.
 if(getArguments() != null)
 
 ​	String data = getArguments().getString( key 값 ) 과 같은 형식으로 받아온다.
+
+
+
+안드로이드에서 vector 이미지를 사용하기 위해서는 아래를 gradle에 추가해준다.
+
+```groovy
+android {
+      defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+      }
+    }
+
+    dependencies {
+      compile 'com.android.support:appcompat-v7:23.2.0'
+    }
+```
+
+의존성을 추가해주지 않으면 out of memory 에러가 나오면서 build를 실패하여 앱을 실행시키지도 못한다.
