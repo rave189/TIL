@@ -16,6 +16,11 @@ public class Main {
 }
 
 class Solution {
+	/**
+	 * 스파이가 매일 다른 옷을 조합하여 위장을 하려고 할 때 매일 서로 다른 옷의 조합의 수를 반환하는 메소드
+	 * @param clothes 스파이가 가진 의상들
+	 * @return 다른 옷을 입는 조합의 수
+	 */
 	public int solution(String[][] clothes) {
 		HashMap<String, Integer> hash = new HashMap<String, Integer>();
 		ArrayList<String> keys = new ArrayList<String>();

@@ -15,6 +15,11 @@ public class Main {
 }
 
 class Solution {
+	/**
+	 * 전화번호부에 적힌 전화번호 중 한 번호가 다른 번호의 접두어인 경우가 있는지 확인하는 메소드
+	 * @param phone_book 전화번호부
+	 * @return true=접두어인 번호가 없는 경우, false=접두어인 번호가 있는 경우
+	 */
 	public boolean solution(String[] phone_book) {
 		HashSet<String> hash = new HashSet<String>();
 		for (int i = 0; i < phone_book.length; i++) {

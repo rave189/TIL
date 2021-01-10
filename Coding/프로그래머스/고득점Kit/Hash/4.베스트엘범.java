@@ -19,6 +19,17 @@ public class Main {
 }
 
 class Solution {
+	/**
+	 * 스트리밍 사이트에서 장르 별 가장 많이 재생된 노래를 두 곡씩 모아 앨범으로 만드는 메소드.
+	 * 한 장르에는 하나의 곡만 존재할 수도 있다.
+	 * 선정하는 기준은 다음과 같다.
+	 * 1. 속한 노래가 많이 재생된 장르를 먼저 수록한다.
+	 * 2. 장르 내에서 많이 재생된 노래를 먼저 수록한다.
+	 * 3. 장르 내에서 재생 횟수가 같은 노래 중에서는 고유 번호가 낮은 노래를 먼저 수록한다.
+	 * @param genres 각각의 index에 있는 노래가 어떤 장르인지 저장한 배열
+	 * @param plays 각각의 index에 있는 노래가 몇 번 재생되었는지 저장한 배열
+	 * @return 각 장르마다 수록한 노래들의 인덱스를 저장한 배열
+	 */
 	public int[] solution(String[] genres, int[] plays) {
 		HashMap<String, Total> hash = new HashMap<>();
 		Queue<String> keys = new LinkedList<String>();
