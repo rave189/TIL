@@ -8,7 +8,7 @@ OSI는 Open Systems Interconnection의 약자로 국제 표준화 기구에서 1
 
 각 계층은 독립되어 있어 한 계층이 고장나면 고장난 계층만을 고칠 수 있다.
 
-![OSI 7계층 구성](C:\Users\Rave\Desktop\1.png)
+![1](https://user-images.githubusercontent.com/59406960/110309624-ed29c080-8044-11eb-9314-1036a96f4b00.png)
 
 <h4>1계층 - 물리계층</h4>
 

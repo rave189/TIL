@@ -16,7 +16,7 @@
 
 3-way-handshake은 클라이언트와 서버를 연결하기 위해 사용하는 방식이다.
 
-![3-way-handshake](C:\Users\Rave\Desktop\2.png)
+![2](https://user-images.githubusercontent.com/59406960/110309618-ebf89380-8044-11eb-89c6-4adc6a47e9c5.png)
 
 - 클라이언트에서 서버로 SYN 신호를 보내고 자신은 SYN-SENT 상태가 된다.
 
@@ -30,7 +30,7 @@
 
 4-way-handshake은 클라이언트와 서버의 연결을 해제하기 위해 사용하는 방식이다.
 
-![4-way-handshake](C:\Users\Rave\Desktop\3.png)
+![3](https://user-images.githubusercontent.com/59406960/110309627-edc25700-8044-11eb-946f-213f63f377f6.png)
 
 - 연결이 되어있는 상태에서 클라이언트가 서버로 FIN 신호를 보내며 자신은 FIN-WAIT-1상태가 된다.
 
