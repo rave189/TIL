@@ -10,3 +10,8 @@
 
 오류 제어는 CheckSum으로 최소한의 오류 검토만을 해준다.
 
+
+
+<h1>QUIC</h1>
+
+QUIC는 Quick UDP Internet Connections의 약자이다.

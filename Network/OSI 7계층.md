@@ -72,6 +72,7 @@ OSI는 Open Systems Interconnection의 약자로 국제 표준화 기구에서 1
 
 - 최종 목적지로 HTTP, FTP, SMTP Telnet 등과 같은 프로토콜이 있다.
 - 응용 프로세스와 직접 관계하여 응용 서비스를 수행한다.
-- 
+
+
 
 출처 - [https://jhnyang.tistory.com/194](https://jhnyang.tistory.com/194)
